@@ -1,10 +1,10 @@
 /* Trivial application of Binary Indexed Trees / Fenwick Trees
+    read() and update() from TopCoder tutorial here-
+    http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=binaryIndexedTrees
 */
 
 #include <iostream>
 #include <cstdio>
-//#define scanf("%d",&a) si(a)
-//#define scanf("%f",&b) sf(b)
 
 using namespace std;
 
@@ -40,9 +40,7 @@ for(i=1;i<=n;i++)
     {scanf("%d",&k);
      update(i,k);
      }
-//for(i=1;i<=n;i++)
-//    printf("%d,  ",tree[i]);
-//cout<<"\n";
+
     char test;
     int x,y;
  for(i=1;i<=q;i++){
