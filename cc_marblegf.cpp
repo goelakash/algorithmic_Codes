@@ -44,6 +44,7 @@ for(i=1;i<=n;i++)
     char test;
     int x,y;
  for(i=1;i<=q;i++){
+
     getTest:
     scanf("%c",&test);
 
@@ -61,6 +62,7 @@ for(i=1;i<=n;i++)
         scanf("%d%d",&x,&y);
         update(x+1,-y);
     }
+
     else
         goto getTest;
 
