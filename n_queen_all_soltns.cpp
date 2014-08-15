@@ -1,6 +1,6 @@
 #include<cstdio>
 
-#define N 5
+#define N 9
 
 
 using namespace std;
