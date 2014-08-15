@@ -1,0 +1,13 @@
+
+void scan(int &a)
+{
+    a=0;
+    register char c = getchar();
+    while(c<48||c>57){
+    	c = getchar();
+    }
+    while(c>=48&&c<=57){
+        a = (a<<3) + (a<<1) + c - 48;
+        c = getchar();
+    }
+}
