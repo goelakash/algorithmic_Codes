@@ -1,5 +1,8 @@
 #include <iostream>
+<<<<<<< HEAD
 //this comment is pointless
+=======
+>>>>>>> 29872943ab587b519c913e87589c02c04acb5555
 using namespace std;
 
 void printBin(int n){
