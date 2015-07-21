@@ -1,0 +1,13 @@
+
+vector <int> factorize(int n){
+
+vector <int> factors;
+int sqrN = sqrt(n);
+for(int i=2;i<=sqrN;i++){
+
+    //arr is a bool array which is a prime sieve result
+    if(arr[i]==0&&a%i==0) factors.push_back(i);
+
+}
+return factors;
+}

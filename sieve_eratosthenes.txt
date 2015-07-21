@@ -1,0 +1,22 @@
+void markMultiples(bool arr[], int a, int n)
+{
+    int i = 2, num;
+    while ( (num = i*a) <= n )
+    {
+        arr[ num] = 1; // minus 1 because index starts from 0.
+        ++i;
+    }
+}
+bool arr[MAX_P];
+void SieveOfEratosthenes(int n)
+{
+    if (n >= 2)
+    {
+       memset(arr, 0, sizeof(arr));
+       for (int i=2; i<=n; ++i)
+        {
+            if ( arr[i] == 0 )
+                markMultiples(arr, i, n);
+        }
+    }
+}
